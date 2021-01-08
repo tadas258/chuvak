@@ -1,0 +1,122 @@
+body > div {
+    display: inline-block;
+    width: 1300px;
+    margin-left: calc((100% - 1300px) / 2);
+}
+header {
+    display: inline-block;
+    width:  100%;
+}
+header > img {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-top: 25px;
+}
+nav {
+    display: inline-block;
+    float: right;
+}
+a {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    padding-left: 60px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 16px;
+
+}
+nav > img {
+    display: inline-block;
+    float: left;
+    padding-left: 70px;
+    margin-top: 12px;
+}
+.hr {
+    display: inline-block;
+    width: 100%;
+    border-color: hotpink;
+}
+main {
+    display: inline-block;
+    width: 100%;
+}
+main > div {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 120px;
+}
+h1 {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(49, 49, 49);
+    margin: 0;
+}
+p {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(82, 82, 82);
+}
+form {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+}
+input {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    outline:none;
+
+}
+input:hover {
+    border: solid grey 1px;
+}
+
+
+button {
+    display: inline-block;
+    float: left;
+    padding: 0;
+    border: none;
+    background-color: white;
+    margin-left: 2%;
+    height: 35px;
+    width: 35px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    outline: none;
+
+}
+button:hover {
+    border: solid grey 1px;
+}
+button > img {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+}
+main > img {
+    display: inline-block;
+    width: 60%;
+    float: right;
+
+
+}
